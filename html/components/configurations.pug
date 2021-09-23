@@ -1,0 +1,25 @@
+-var buyer = "Verified Buyer"
+-const titulo = "10,000+ of our users love our products."
+mixin picture(img_mobile_top, img_desktop_top, img_mobile_bottom, img_desktop_bottom)
+    picture 
+        source(media="(min-width:374px)" srcset="/frontendMentor/social-proof-section-master/images/"+img_desktop_top) 
+        img(src="/frontendMentor/social-proof-section-master/images/"+img_mobile_top , alt="imagen de estilo en el fondo")
+        source(media="(min-width:374px)" srcset="/frontendMentor/social-proof-section-master/images/"+img_desktop_bottom) 
+        img(src="/frontendMentor/social-proof-section-master/images/"+img_mobile_bottom , alt="imagen de estilo en el fondo")
+mixin rating(text, icon)
+    .rating_box 
+        .rating_box_stars
+            img(src=icon, alt="S")
+            img(src=icon, alt="T")
+            img(src=icon, alt="A")
+            img(src=icon, alt="R")
+            img(src=icon, alt="S")
+        p=text
+mixin opinion(images, name, subtitle, text) 
+    .opinions_profile 
+        .opinions_profile-box 
+            img(src=images, alt="profile photo")
+            .opinions_profile-box-title 
+                p=name 
+                span=subtitle
+        p=text

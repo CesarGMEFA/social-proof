@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Spartan", sans-serif;
+}
+
+body {
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: 0px 0px , 0px 100%;
+}
+
+main {
+  text-align: center;
+  padding: 6rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.content {
+  width: 100%;
+  max-width: 50rem;
+}
+
+.content h1 {
+  color: #502050;
+  line-height: 3.7rem;
+}
+
+.content p {
+  color: #937b92;
+  font-weight: 500;
+}
+
+.rating {
+  min-width: 30rem;
+  max-width: 50rem;
+  width: 100%;
+}
+
+.rating_box {
+  margin: 0 0 3rem;
+  padding: 1.2rem;
+  border-radius: .8rem;
+  background-color: #f7f2f7;
+}
+
+.rating_box_stars img {
+  margin: .5rem .3rem 0;
+}
+
+.rating_box p {
+  margin: 0;
+  font-weight: bold;
+  color: #502050;
+}
+
+.opinions {
+  text-align: initial;
+}
+
+.opinions_profile {
+  margin: 2rem 0;
+  padding: 3.5rem 3rem;
+  max-width: 33rem;
+  border-radius: .8rem;
+  background-color: #502050;
+}
+
+.opinions_profile-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.opinions_profile-box img {
+  margin-right: 2rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+.opinions_profile-box-title {
+  padding: .6rem 0;
+}
+
+.opinions_profile-box-title p {
+  margin: 0;
+  color: white;
+  font-weight: 700;
+}
+
+.opinions_profile-box-title span {
+  color: #ee68a4;
+  font-weight: 400;
+}
+
+.opinions_profile > p {
+  margin: 1.5rem 0 0;
+  color: #f7f2f7;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-position: 0px 0px , 100% 100%;
+}
+
+main {
+  padding: 0 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto 300px;
+      grid-template-rows: auto 300px;
+}
+
+.content {
+  text-align: initial;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.content h1 {
+  font-size: 3.7rem;
+  margin-bottom: 1.2rem;
+  padding-right: 9rem;
+}
+
+.content p {
+  padding-right: 20px;
+}
+
+.rating {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.rating_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 420px;
+}
+
+.rating_box--stars {
+  margin-right: 2rem;
+}
+
+.rating_box:nth-child(1) {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  justify-self: flex-start;
+}
+
+.rating_box:nth-child(2) {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.rating_box:nth-child(3) {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.opinions {
+  grid-column: 1/-1;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.opinions_profile {
+  margin: 0 1.8rem;
+  height: 26rem;
+}
+
+.opinions_profile:nth-child(1) {
+  margin-left: 0;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+}
+
+.opinions_profile:nth-child(2) {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.opinions_profile:nth-child(3) {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+/*# sourceMappingURL=break_desktop.css.map */

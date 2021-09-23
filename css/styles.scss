@@ -1,0 +1,110 @@
+$font: 'Spartan', sans-serif;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+$color-primary: hsl(300, 43%, 22%);
+$color-secondary: hsl(333, 80%, 67%);
+$neutral_1: hsl(303, 10%, 53%);
+$neutral_2: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+    font-family: $font;
+}
+body {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0px 0px , 0px 100%;
+}
+
+
+main {
+    text-align: center;
+    padding: 6rem 2rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 100%;
+    max-width: 50rem;
+    h1 {
+        color: $color-primary;
+        line-height: 3.7rem;
+    }
+    p {
+        color: $neutral_1;
+        font-weight: $medium;
+    }
+}
+
+
+.rating {
+    min-width: 30rem;
+    max-width: 50rem;
+    width: 100%;
+    &_box {
+        margin: 0 0 3rem;
+        padding: 1.2rem;
+        border-radius: .8rem;
+        background-color: $neutral_2;
+        &_stars img {
+            margin: .5rem .3rem 0;
+        }
+    p {
+        margin: 0;
+        font-weight: bold;
+        color: $color-primary;
+    }
+    }
+}
+
+
+.opinions {
+    text-align: initial;
+
+    
+    &_profile {
+        margin: 2rem 0;
+        padding: 3.5rem 3rem;
+        max-width: 33rem;
+        border-radius: .8rem;
+        background-color: $color-primary;
+        &-box {
+            display: flex;
+            img {
+                margin-right: 2rem;
+                width: 5rem;
+                height: 5rem;
+                border-radius: 50%;
+            }
+            &-title {
+                padding: .6rem 0;
+                p {
+                    margin: 0;
+                    color: $white;
+                    font-weight: $bold;
+                }
+                span {
+                    color: $color-secondary;
+                    font-weight: $regular;
+                }
+            }
+        }
+        > p {
+            margin: 1.5rem 0 0;
+            color: $neutral_2;
+        }
+    }
+}
