@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution of challenge here](https://www.frontendmentor.io/solutions/pug-sass-css-grid-flexbox-and-html-rcJOhmsB4)
 - Live Site URL: [https://proof-cesarg.netlify.app/](https://your-live-site-url.com)
 
 ## My process
@@ -52,7 +52,7 @@ I will continue to study more about the PUG and Sass preprocessors. In turn, I s
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@CesarGMEFA](https://www.frontendmentor.io/profile/CesarGMEFA)
 - GIthub - [@CesarGMEFA](https://github.com/CesarGMEFA/)
 
 
